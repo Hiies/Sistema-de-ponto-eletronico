@@ -18,14 +18,23 @@
         <div class="borda">
             <p class="paragrafo">Login</p>
             <table>
-                <div class="form-group">
-                    <label for="Matrícula"class="id_label">Matricula:</label>
-                    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                  </div>
-                  <div class="form-group">
-                    <label class="id_label">Senha:</label>
-                    <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
-                  </div>
+                <form>
+                    <div class="form-group">
+                        <label for="Matrícula"class="id_label">Matricula:</label>
+                        <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Digite sua matrícula" min="1" max="7">
+                    </div>
+                    <div class="form-group">
+                        <label class="id_label">Senha:</label>
+                        <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Digite sua senha">
+                    </div>
+                    <div class="btn_login">
+                        <button type="submit" class="btn btn-outline-light">Entrar</button>
+                    </div>
+                    <div>
+                        <a href="#" onclick="a();" style="color:aliceblue">Esqueceu a senha?</a></p>
+                    </div>
+                </form>  
+                </table>
             </table>
         </div>
     </div>
