@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dash_style.css" rel="stylesheet" type="text/css" />
+    <script src="dash_script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset class="border p-2">
+        <legend class="legend-style" id="hora"></legend>
+        <div class="control-group">
+            <label class="control-label input-label" for="startTime">Start :</label>
+            <div class="controls bootstrap-timepicker">
+                <input type="text" class="datetime" id="startTime" name="startTime" readonly />
+                <i class="icon-time"></i>
+            </div>
+            <div>
+                <button onclick="logout()" class="btn btn-outline-dark">Sair</button>
+            </div>
+        </div>
+    </fieldset>
+</body>
+</html>

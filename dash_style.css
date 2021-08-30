@@ -1,0 +1,10 @@
+.border {
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-100px 0 0 -100px
+}
+.legend-style {
+    margin-left: calc(50% - 35px - 8px)
+    
+}

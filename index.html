@@ -19,17 +19,17 @@
         <div class="borda">
             <p class="paragrafo">Login</p>
             <table>
-                <form>
+                <form onsubmit="return false;">
                     <div class="form-group">
-                        <label for="Matrícula"class="id_label">Matricula:</label>
+                        <label for="Matrícula" class="id_label">Matricula:</label>
                         <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Digite sua matrícula" id="mat" maxlength="7">
                     </div>
                     <div class="form-group">
-                        <label class="id_label">Senha:</label>
+                        <label for="Senha" class="id_label">Senha:</label>
                         <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Digite sua senha" id="senha">
                     </div>
                     <div class="btn_login">
-                        <button type="submit"  onclick="login()" class="btn btn-outline-light">Entrar</button>
+                        <button onclick="login()" class="btn btn-outline-light">Entrar</button>
                     </div>
                     <div>
                         <a href="#" onclick="recu_pass()" style="color:aliceblue" >Esqueceu a senha?</a></p>
