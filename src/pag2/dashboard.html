@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +10,11 @@
     <title>Document</title>
 </head>
 <body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+           <a class="navbar-brand" href="#">Sistema de ponto eletrônico</a>
+        </div>
+    </nav>
     <fieldset class="border p-2">
         <legend class="legend-style" id="hora"></legend>
         
@@ -19,18 +24,29 @@
                 <tr>
                     <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
                     <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
+                    <div class="line1"></div>
+                    <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
+                    <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
+                    <div class="line1"></div>
+                    <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
                     <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
                 </tr>
             </div>
+            <hr>
+            </hr>
             <div class="input-group input-group-sm mb-3">
-                <tr>
-                    <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
-                    <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
-                    <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
-                    <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
-                    <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
-                    <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
-                </tr>
+                <hr>
+                    <tr>
+                        <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
+                        <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
+                        <div class="line2"></div>
+                        <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
+                        <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
+                        <div class="line2"></div>
+                        <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
+                        <td><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></td>
+                    </tr>
+                </hr>
             </div>
             <div>
                 <button onclick="logout()" class="btn btn-outline-dark">Sair</button>

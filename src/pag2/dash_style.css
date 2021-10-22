@@ -10,3 +10,11 @@
     margin-left: calc(50% - 35px - 8px)
     
 }
+.line1 {
+    border-left: 6px solid green;
+    height: 31px;
+  }
+  .line2 {
+    border-left: 6px solid green;
+    height: 33px;
+  }
