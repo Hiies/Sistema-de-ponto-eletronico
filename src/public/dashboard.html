@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./dash_style.css" rel="stylesheet" type="text/css" />
-    <script src="./script_pag2.js"></script>
+    <link href="../css/dashboard.css" rel="stylesheet" type="text/css" />
+    <script src="../js/dashboard.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <title>Document</title>
 </head>
@@ -15,7 +15,8 @@
            <a class="navbar-brand" href="#">Sistema de ponto eletrônico</a>
         </div>
     </nav>
-    <fieldset class="border p-2">
+    <div class="position-absolute top-50 start-50 translate-middle">
+   <span class="border border-dark">
         <legend class="legend-style" id="hora"></legend>
         
         <div class="container">
@@ -52,6 +53,7 @@
                 <button onclick="logout()" class="btn btn-outline-dark">Sair</button>
             </div>
         </div>
-    </fieldset>
+    </span>
+    </div>
 </body>
 </html>

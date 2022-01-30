@@ -4,7 +4,7 @@ function login(){
     const senha = document.getElementById("senha").value;
     //condições para autenticação sem banco de dados.
     if ((mat==3126012)&&(senha==123)) {
-        document.location = '../pag2/dashboard.html'
+        //location.href = '/users/dashboard'
     }
     else if (mat=="") {
         alert("Digite sua matrícula")

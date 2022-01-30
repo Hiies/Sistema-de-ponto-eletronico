@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./script.js"></script>
-    <link type="text/css" rel="stylesheet" href="./style.css"/>
+    <script src="../js/login.js"></script>
+    <link href="../css/login.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 <body style="background: rgba(0, 0, 0, 0.93); overflow: hidden;">
@@ -19,7 +19,7 @@
         <div class="borda">
             <p class="paragrafo">Login</p>
             <table>
-                <form id="form1" name="form1" class="form-horizontal" method="POST" onsubmit="return false;">
+                <form action="/users/login" id="form1" name="form1" class="form-horizontal" method="POST" onsubmit="return false;">
                     <div class="form-group">
                         <label for="Matrícula" class="id_label">Matricula:</label>
                         <div>
@@ -33,10 +33,10 @@
                     <div class="btn_login">
                         <button onclick="login()" class="btn btn-outline-light">Entrar</button>
                     </div>
-                    <div>
-                        <a href="#" onclick="recu_pass()" style="color:aliceblue" >Esqueceu a senha?</a></p>
-                    </div>
                 </form>  
+                <div>
+                    <a href="#" onclick="recu_pass()" style="color:aliceblue" >Esqueceu a senha?</a></p>
+                </div>
                 </table>
             </table>
         </div>

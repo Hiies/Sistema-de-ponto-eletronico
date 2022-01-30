@@ -35,5 +35,5 @@ function relogio(){
 var timer=setInterval(relogio,1000);
 
 function logout() {
-   document.location = "../login/index.html"
+   location.href = "/users/login"
 }
