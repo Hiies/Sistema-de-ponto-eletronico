@@ -1,6 +1,7 @@
 function FullData() {
     //Capturando data e criando Array para definir o mês/Dia da semana de acordo com a lingua pt-br
     var data = new Date();
+    var teste = 10;
     var mes = new Array ("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
     var semana = new Array("Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado")
     return (semana[data.getDay()] + ", " + data.getDate() + " de " + mes[data.getMonth()] + " de " + data.getFullYear())
@@ -24,6 +25,18 @@ function hora() {
     }
     return(hora + ":" + min + ":" + sec);
 }
+function testehora() {
+    let testehora = hora();
+    let entrada = document.getElementById("testehora").value
+    if ( entrada == 0) {
+        document.getElementById("testehora").value = testehora;
+    }
+    else {
+        alert("Hora registrada")
+    }
+}
+
+
 //Função para exibir relogio
 function relogio(){
     //variavel para capturar os valores de função hora()
