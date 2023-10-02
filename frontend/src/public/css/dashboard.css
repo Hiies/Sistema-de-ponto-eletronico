@@ -10,11 +10,14 @@
     margin-left: calc(50% - 35px - 8px);
     height: 20px;
 }
-.line1 {
-    border-left: 6px solid green;
-    height: 31px;
-  }
-  .line2 {
-    border-left: 6px solid green;
-    height: 33px;
-  }
+.container {
+  height: 100%;
+  width: 100%;
+}
+.box {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 25%;
+  height: 25%;
+}
